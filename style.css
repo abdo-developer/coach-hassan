@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+
+body {
+    direction: rtl;
+    font-family: 'Almarai', sans-serif;
+    font-size: 17px;
+}
+
+header {
+    background-image: url(img/coach.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 100vh;    
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.custom-shape-divider-bottom-1624362434 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1624362434 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 0px;
+}
+
+.custom-shape-divider-bottom-1624362434 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-heading {
+    color: white;
+    padding-top: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.text-mark {
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    background-color: orange;
+    height: 40px;
+    width: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 0 !important;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+ul li:hover {
+    background-color: goldenrod;
+}
+
+ul li i {
+    color: white;
+    font-size: 22px;
+}
+
+.btn-snap {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.btn-snap a {
+    background-color: gold;
+    color: black;
+    padding: 15px 40px;
+    font-weight: 600;
+    border-color: gold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-snap a:hover {
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+
+.scan-to-add img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.custom-name-snap {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+ul.p-0.list-inline.text-center {
+    margin-bottom: 0;
+    padding-bottom: 30px !important;
+}
+
+/* Responsive Page */
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .custom-heading {
+        line-height: 40px;
+    }
+
+    .text-mark {
+        font-size: 20px;
+    }
+
+    .btn-snap a {
+        padding: 14px;
+        font-size: 15px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Good */
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* Good */
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Good */
+ }
+
+@media (min-width: 1200px) { 
+    /* Good */
+ }
