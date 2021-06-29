@@ -132,6 +132,10 @@ ul.p-0.list-inline.text-center {
         padding: 14px;
         font-size: 15px;
     }
+
+    .scan-to-add img {
+        height: 250px;
+    }
  }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -144,6 +148,10 @@ ul.p-0.list-inline.text-center {
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     /* Good */
+
+    .scan-to-add img {
+        height: 260px;
+    }
  }
 
 @media (min-width: 1200px) { 
