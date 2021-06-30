@@ -122,6 +122,7 @@ ul.p-0.list-inline.text-center {
 @media (min-width: 320px) and (max-width: 575.98px) { 
     .custom-heading {
         line-height: 40px;
+        font-size: 18px;
     }
 
     .text-mark {
@@ -134,7 +135,7 @@ ul.p-0.list-inline.text-center {
     }
 
     .scan-to-add img {
-        height: 250px;
+        height: 220px;
     }
 
     .profile img {
@@ -145,11 +146,15 @@ ul.p-0.list-inline.text-center {
 @media (min-width: 576px) and (max-width: 767.98px) { 
     /* Good */
     .scan-to-add img {
-        height: 270px;
+        height: 250px;
     }
 
     .profile img {
-        height: 180px;
+        height: 150px;
+    }
+
+    .custom-heading {
+        padding-top: 15px;
     }
  }
 
